@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "@hamjs/rpc-server": "github:hadihammurabi/hamjs-rpc-server",
-    "dotenv": "^8.1.0"
+    "dotenv": "^8.1.0",
+    "mysql": "^2.17.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
