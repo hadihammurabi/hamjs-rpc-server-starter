@@ -1,0 +1,28 @@
+{
+  "name": "hamjs-rpc-server-starter",
+  "version": "0.0.1",
+  "description": "HamJS RPC Server starter app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "nodejs",
+    "hamjs",
+    "rpc"
+  ],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadihammurabi/hamjs-rpc-server-starter.git"
+  },
+  "dependencies": {
+    "@hamjs/rpc-server": "github:hadihammurabi/hamjs-rpc-server",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
