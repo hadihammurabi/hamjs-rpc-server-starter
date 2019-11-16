@@ -11,7 +11,7 @@ if (fs.existsSync(PROCEDURE_DIR)) {
   files = files.filter(f => path.extname(f) === '.js' && path.basename(__filename) !== f);
   
   files.forEach(f => {
-    require(`./${PROCEDURE_DIR}/${f}`);
+    require(`./${PROCEDURE_DIR}/${f}`)(rpc);
   });
 } else {
   throw `Procedure dir "${PROCEDURE_DIR}" is doesn't exists`;
