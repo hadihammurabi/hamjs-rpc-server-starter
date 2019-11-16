@@ -1,5 +1,7 @@
-const rpc = require('@hamjs/rpc-server');
+module.exports = (rpc) => {
 
-rpc.def('example', () => {
-  return 'this is an example';
-});
+  rpc.def('hitung', (a, b) => {
+    return `hasil: ${a+b}`;
+  });
+
+};
